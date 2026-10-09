@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 680" role="img" aria-labelledby="title desc">
+  <title id="title">UML de casos de uso da FightZone</title>
+  <desc id="desc">Diagrama UML dos atores visitante, cliente, vendedor e administrador e suas interações com a loja e o painel.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f4f1eb}.sys{fill:#fffefa;stroke:#171816;stroke-width:2}.uc{fill:#fffefa;stroke:#d8432e;stroke-width:2}.txt{fill:#171816;font:16px Arial,sans-serif}.title{fill:#171816;font:bold 22px Arial,sans-serif}.actor{fill:none;stroke:#171816;stroke-width:3}.link{fill:none;stroke:#777870;stroke-width:1.6}.stereo{fill:#a92d20;font:bold 14px Arial,sans-serif}
+    </style>
+  </defs>
+  <rect class="bg" width="1100" height="680" rx="18"/>
+  <text class="title" x="550" y="40" text-anchor="middle">UML • Casos de uso — FightZone</text>
+  <rect class="sys" x="240" y="75" width="630" height="565" rx="10"/>
+  <text class="stereo" x="555" y="101" text-anchor="middle">Sistema FightZone</text>
+  <g class="actor">
+    <circle cx="105" cy="170" r="17"/><path d="M105 187v52m-28-34h56m-28 34-24 38m24-38 24 38"/>
+    <circle cx="105" cy="420" r="17"/><path d="M105 437v52m-28-34h56m-28 34-24 38m24-38 24 38"/>
+    <circle cx="1000" cy="300" r="17"/><path d="M1000 317v52m-28-34h56m-28 34-24 38m24-38 24 38"/>
+    <circle cx="1000" cy="500" r="17"/><path d="M1000 517v52m-28-34h56m-28 34-24 38m24-38 24 38"/>
+  </g>
+  <g class="txt">
+    <text x="105" y="310" text-anchor="middle">Visitante</text>
+    <text x="105" y="585" text-anchor="middle">Cliente</text>
+    <text x="1000" y="425" text-anchor="middle">Vendedor</text>
+    <text x="1000" y="625" text-anchor="middle">Administrador</text>
+  </g>
+  <g class="uc">
+    <ellipse cx="410" cy="160" rx="130" ry="32"/><ellipse cx="690" cy="160" rx="130" ry="32"/>
+    <ellipse cx="410" cy="235" rx="130" ry="32"/><ellipse cx="690" cy="235" rx="130" ry="32"/>
+    <ellipse cx="410" cy="310" rx="130" ry="32"/><ellipse cx="690" cy="310" rx="130" ry="32"/>
+    <ellipse cx="410" cy="385" rx="130" ry="32"/><ellipse cx="690" cy="385" rx="130" ry="32"/>
+    <ellipse cx="410" cy="460" rx="130" ry="32"/><ellipse cx="690" cy="460" rx="130" ry="32"/>
+    <ellipse cx="410" cy="535" rx="130" ry="32"/><ellipse cx="690" cy="535" rx="130" ry="32"/>
+    <ellipse cx="550" cy="600" rx="130" ry="28"/>
+  </g>
+  <g class="txt" text-anchor="middle">
+    <text x="410" y="166">Consultar catálogo</text><text x="690" y="166">Pesquisar produtos</text>
+    <text x="410" y="241">Criar conta / entrar</text><text x="690" y="241">Gerenciar carrinho</text>
+    <text x="410" y="316">Calcular frete estimado</text><text x="690" y="316">Finalizar pedido</text>
+    <text x="410" y="391">Baixar comprovante</text><text x="690" y="391">Consultar painel</text>
+    <text x="410" y="466">Consultar pedidos</text><text x="690" y="466">Consultar relatórios</text>
+    <text x="410" y="541">Cadastrar / editar produto</text><text x="690" y="541">Registrar entrada</text>
+    <text x="550" y="606">Administrar categorias</text>
+  </g>
+  <g class="link">
+    <path d="M122 170 280 160M122 170 560 160M122 420 280 235M122 420 560 235M122 420 280 310M122 420 560 310M122 420 280 385"/>
+    <path d="M978 300 820 385M978 300 820 460M978 500 820 385M978 500 820 460M978 500 540 460M978 500 540 535M978 500 820 535M978 500 680 600"/>
+  </g>
+</svg>
