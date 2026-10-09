@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-labelledby="title desc">
+  <title id="title">UML de atividades do processo de compra</title>
+  <desc id="desc">Diagrama de atividades UML do fluxo de compra, incluindo validação de cliente, estoque, checkout e caminhos de erro.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f4f1eb}.node{fill:#fffefa;stroke:#171816;stroke-width:2}.decision{fill:#fffefa;stroke:#d8432e;stroke-width:2}.line{stroke:#777870;stroke-width:2;fill:none;marker-end:url(#arr)}.txt{fill:#171816;font:15px Arial,sans-serif}.title{fill:#171816;font:bold 22px Arial,sans-serif}.hint{fill:#a92d20;font:bold 13px Arial,sans-serif}.start{fill:#171816}.end{fill:#fffefa;stroke:#171816;stroke-width:3}
+    </style>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#777870"/></marker>
+  </defs>
+  <rect class="bg" width="1000" height="760" rx="18"/>
+  <text class="title" x="500" y="38" text-anchor="middle">UML • Atividades — Finalizar uma compra</text>
+  <circle class="start" cx="500" cy="82" r="12"/>
+  <rect class="node" x="350" y="115" width="300" height="54" rx="24"/><text class="txt" x="500" y="148" text-anchor="middle">Consultar catálogo e escolher itens</text>
+  <rect class="node" x="350" y="205" width="300" height="54" rx="24"/><text class="txt" x="500" y="238" text-anchor="middle">Adicionar produtos ao carrinho</text>
+  <path class="decision" d="M500 290 555 335 500 380 445 335z"/><text class="txt" x="500" y="340" text-anchor="middle">Cliente autenticado?</text>
+  <rect class="node" x="40" y="308" width="260" height="54" rx="24"/><text class="txt" x="170" y="341" text-anchor="middle">Criar conta ou entrar</text>
+  <rect class="node" x="350" y="420" width="300" height="54" rx="24"/><text class="txt" x="500" y="453" text-anchor="middle">Calcular frete e informar entrega</text>
+  <rect class="node" x="350" y="510" width="300" height="54" rx="24"/><text class="txt" x="500" y="543" text-anchor="middle">Selecionar forma de pagamento</text>
+  <path class="decision" d="M500 590 555 635 500 680 445 635z"/><text class="txt" x="500" y="640" text-anchor="middle">Dados e estoque válidos?</text>
+  <rect class="node" x="700" y="606" width="260" height="58" rx="24"/><text class="txt" x="830" y="631" text-anchor="middle">Exibir erro e permitir</text><text class="txt" x="830" y="651" text-anchor="middle">corrigir carrinho/dados</text>
+  <rect class="node" x="350" y="700" width="300" height="48" rx="22"/><text class="txt" x="500" y="730" text-anchor="middle">Gravar pedido e itens; baixar estoque</text>
+  <g class="line">
+    <path d="M500 94v21M500 169v36M500 259v31M445 335H300"/>
+    <path d="M170 308V283H500V290M500 380v40M500 474v36M500 564v26M500 680v20"/>
+    <path d="M555 635H700"/>
+  </g>
+  <g class="hint">
+    <text x="318" y="326">Não</text><text x="515" y="405">Sim</text><text x="600" y="622">Não</text><text x="515" y="698">Sim</text>
+  </g>
+  <path class="line" d="M830 606V495H650"/>
+  <circle class="end" cx="500" cy="755" r="8"/><circle class="start" cx="500" cy="755" r="3"/>
+</svg>

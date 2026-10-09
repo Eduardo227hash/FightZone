@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#d8432e"/>
+  <path d="M9 10h46l-4 8H13z" fill="#171816" opacity=".22"/>
+  <text x="32" y="44" fill="#fffefa" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="900" letter-spacing="-2" text-anchor="middle">FZ</text>
+</svg>
