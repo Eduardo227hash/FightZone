@@ -203,7 +203,7 @@ FROM (
          'Spark', 'Bucal simples Spark preto', 89.90, 0.10, 5, 8, 12, 15,
          'uploads/bucal-spark.png'
   UNION ALL SELECT 'bandagens', 'Bandagem Elástica',
-         'Spark', 'Bandagem Maximum 5M', 69.90, 0.20, 6, 10, 12, 20,
+         'Spark', 'Bandagem Spark 5M', 69.90, 0.20, 6, 10, 12, 20,
          'uploads/bandagemspark.png'
   UNION ALL SELECT 'protecao', 'Coquilha de Proteção Title',
          'Title Boxing', 'Coquilha Tamanho M', 249.90, 0.35, 12, 20, 25, 10,
@@ -238,7 +238,7 @@ JOIN (
          'uploads/CletoReyes-marrom.webp'
   UNION ALL SELECT 'protecao', 'Bucal Spark Preto', 'Spark', 'Bucal simples Spark', 89.90, 0.10, 5, 8, 12, 15,
          'uploads/bucal-spark.png'
-  UNION ALL SELECT 'bandagens', 'Bandagem Elástica para Boxe', 'Spark', 'Bandagem maximum 5M', 69.90, 0.20, 6, 10, 12, 20,
+  UNION ALL SELECT 'bandagens', 'Bandagem Elástica para Boxe', 'Spark', 'Bandagem Spark 5M', 69.90, 0.20, 6, 10, 12, 20,
          'uploads/bandagemspark.png'
   UNION ALL SELECT 'protecao', 'Coquilha de Proteção Title', 'Title Boxing', 'Coquilha Tamnho M', 249.90, 0.35, 12, 20, 25, 10,
          'uploads/coquilha-title.png'
